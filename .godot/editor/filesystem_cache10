@@ -1,0 +1,11 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1794611931
+icon.svg::CompressedTexture2D::4603316538784199998::1794611529::1794611931::1::::<><><>0<>0<>30fd70c0d40a002e373688b8565cdd08<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://addons/::1794611714
+::res://addons/godot_super-wakatime/::1794611715
+api_key_prompt.tscn::PackedScene::3919262858641749045::1794611714::0::1::::<><><>0<>0<><>::
+counter.tscn::PackedScene::6849360014225833986::1794611715::0::1::::<><><>0<>0<><>::
+godot_super-wakatime.gd::GDScript::6277149880384411866::1794611715::0::1::::<>EditorPlugin<><>0<>1<><>::
+plugin.cfg::TextFile::-1::1794611715::0::1::::<><><>0<>0<><>::
+README.md::TextFile::-1::1794611714::0::1::::<><><>0<>0<><>::
+utils.gd::GDScript::5251015809120159908::1794611715::0::1::::<>RefCounted<><>0<>0<><>::
