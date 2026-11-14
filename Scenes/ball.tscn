@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://4w5hok5umljj"]
 
-[ext_resource type="Texture2D" uid="uid://b6t47lf32p80a" path="res://icon.svg" id="1_x8fbi"]
+[ext_resource type="Texture2D" uid="uid://c02w4bo2qi7k4" path="res://Assets/ballred.png" id="2_376qj"]
 [ext_resource type="Script" uid="uid://b6pl4gedype01" path="res://Scenes/player_movement.gd" id="2_ij5cq"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_41u45"]
-radius = 64.23467
+radius = 58.542847
 
 [node name="Player" type="CharacterBody2D" unique_id=241739381]
 motion_mode = 1
@@ -12,8 +12,8 @@ script = ExtResource("2_ij5cq")
 
 [node name="PlaceholderSprite" type="Sprite2D" parent="." unique_id=245131863]
 position = Vector2(582, 282)
-scale = Vector2(0.546875, 0.546875)
-texture = ExtResource("1_x8fbi")
+scale = Vector2(2, 2)
+texture = ExtResource("2_376qj")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1602449388]
 position = Vector2(582, 282)
