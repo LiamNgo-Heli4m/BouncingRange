@@ -36,6 +36,7 @@ func _physics_process(delta: float) -> void:
 	if collision:
 		direction = direction.bounce(collision.get_normal())
 		determineBounce(collision.get_normal())
+		speed += 25
 		
 	wasDragging = isDragging
 	

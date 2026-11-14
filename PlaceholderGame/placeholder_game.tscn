@@ -1,7 +1,9 @@
 [gd_scene format=4 uid="uid://dte6gm6wbc3qj"]
 
 [ext_resource type="PackedScene" uid="uid://4w5hok5umljj" path="res://Scenes/ball.tscn" id="1_48c6b"]
+[ext_resource type="Script" uid="uid://cmxuomip05qh7" path="res://PlaceholderGame/camera_2d.gd" id="2_6hul8"]
 [ext_resource type="Texture2D" uid="uid://c0o8fti6ghfay" path="res://Assets/hardgrassfull.png" id="2_d82t3"]
+[ext_resource type="PackedScene" uid="uid://b0gk80q24p7qi" path="res://PlaceholderGame/goal.tscn" id="2_infs5"]
 [ext_resource type="Script" uid="uid://d00t6seq6sq14" path="res://PlaceholderGame/arrow.gd" id="5_6hul8"]
 [ext_resource type="Texture2D" uid="uid://cmkjh8gmssyrd" path="res://Assets/arrow.png" id="5_infs5"]
 
@@ -27,6 +29,10 @@ tile_set = SubResource("TileSet_yk4cr")
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1754115696]
 position = Vector2(615, 325)
 zoom = Vector2(0.75, 0.75)
+script = ExtResource("2_6hul8")
+
+[node name="Goal" parent="." unique_id=109393525 instance=ExtResource("2_infs5")]
+position = Vector2(902, 315)
 
 [node name="NinePatchRect" type="NinePatchRect" parent="." unique_id=2145407574]
 offset_right = 40.0
@@ -39,3 +45,22 @@ script = ExtResource("5_6hul8")
 
 [node name="Player" parent="." unique_id=748149067 instance=ExtResource("1_48c6b")]
 position = Vector2(575, 320)
+
+[node name="VictoryMenu" type="CanvasLayer" parent="." unique_id=64526159]
+
+[node name="ColorRect" type="ColorRect" parent="VictoryMenu" unique_id=1573555381]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.2901961, 0.2901961, 0.2901961, 0.39215687)
+
+[node name="Buttons" type="Node2D" parent="VictoryMenu" unique_id=2108227986]
+
+[node name="Button" type="Button" parent="VictoryMenu/Buttons" unique_id=692108623]
+offset_left = 324.0
+offset_top = 218.0
+offset_right = 825.0
+offset_bottom = 422.0
+text = "Exit"

@@ -6,7 +6,7 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_41u45"]
 radius = 58.542847
 
-[node name="Player" type="CharacterBody2D" unique_id=241739381]
+[node name="Player" type="CharacterBody2D" unique_id=241739381 groups=["player"]]
 motion_mode = 1
 script = ExtResource("2_ij5cq")
 

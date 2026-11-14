@@ -1,9 +1,13 @@
-NinePatchRect
+Button
 Node2D
+ColorRect
+CanvasLayer
+CollisionShape2D
+Area2D
 Sprite2D
+NinePatchRect
 Camera2D
 TileMapLayer
 CharacterBody2D
-CollisionShape2D
 StaticBody2D
 RigidBody2D
