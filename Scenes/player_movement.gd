@@ -14,7 +14,6 @@ var tween: Tween
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
 	pass
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -22,8 +21,12 @@ func _physics_process(delta: float) -> void:
 	if isDragging:
 		var startPos = self.position
 		var endPos = get_viewport().get_mouse_position()
-			
+		
 		vector = startPos - endPos
+		
+		var offset = vector / 30
+		
+		self.position =  self.position.lerp(Vector2(575 - offset.x, 300 - offset.y), 0.5)
 	
 	if not isDragging and wasDragging:
 		direction = vector.normalized()

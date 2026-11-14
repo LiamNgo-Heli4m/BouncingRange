@@ -11,11 +11,9 @@ motion_mode = 1
 script = ExtResource("2_ij5cq")
 
 [node name="PlaceholderSprite" type="Sprite2D" parent="." unique_id=245131863]
-position = Vector2(582, 282)
 scale = Vector2(2, 2)
 texture = ExtResource("2_376qj")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1602449388]
-position = Vector2(582, 282)
 scale = Vector2(0.546875, 0.546875)
 shape = SubResource("CircleShape2D_41u45")

@@ -1,3 +1,5 @@
-res://PlaceholderGame/placeholder_game.tscn
-res://Scenes/ball.tscn
 res://Scenes/player_movement.gd
+res://PlaceholderGame/placeholder_game.tscn
+res://PlaceholderGame/mouse.gd
+res://PlaceholderGame/arrow.gd
+res://Scenes/ball.tscn
